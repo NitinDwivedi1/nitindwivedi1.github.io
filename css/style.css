@@ -1,0 +1,203 @@
+body{
+  font: 15px/1.5 arial,helvetica,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color:#f4f4f4;
+}
+/*header*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+header .current a{
+  color:#e8491d;
+  font-weight: bold;
+}
+header{
+  background-color:#00bcd4;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  min-height: 70px;
+  border-bottom: #35424a 3px solid;
+}
+header  a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+}
+header ul{
+  margin: 0;
+  padding: 0;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding img{
+  float: left;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 170px;
+  width: 170px;
+}
+header nav{
+  float: right;
+  margin-top: 70px;
+  padding-right: 0px;
+}
+ .showcase #profilephoto img{
+   margin-left: 20px;
+   width: 200px;
+   height:200px;
+   float: left;
+   border-radius: 25px;
+   border: 3px solid #e8491d;
+ }
+ .showcase #quote p{
+  float: center;
+  color: #e8491d;
+  font-size: 70px;
+  font-family:cursive;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 250px;
+  line-height:1;
+}
+/*middle content*/
+.showcase{
+  padding-top: 20px;
+  background:url("../image/image11 (1).jpg")no-repeat ;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+
+}
+/*main content*/
+.content{
+  font-size: 55px;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  padding: 0 20 0 20;
+  background-color: #ddd;
+
+  background-position: center;
+  background-size: cover;
+}
+  /*footer*/
+footer{
+  background-color:#00bcd4;
+  text-align: center;
+  font: 20px;
+  font-family: monospace;
+  border-top: #35424a 3px solid;
+  margin-top: -20px;
+}
+#social_icons{
+  text-align: center;
+}
+#social_icons li{
+  display: inline-block;
+  list-style-type: none;
+}
+#social_icons li a{
+  border-bottom: none;
+}
+#social_icons li img{
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+/*2nd page*/
+.education{
+  text-align: center;
+}
+.school h3 {
+  text-align: center;
+}
+.headline {
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+.school{
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: 200;
+
+}
+
+.education p  {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+}
+.education p  img{
+  width: 200px;
+  height: 200px;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.main{
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.skill_box{
+  width: 50%;
+  background-color: #ddd;
+  text-align: center;
+  color: white;
+}
+.skills-c{
+  width: 80%;
+  background-color: #4caf50;
+  background-size: cover;
+}
+.skills-cplus{
+  width: 80%;
+  background-color: #2196f3;
+}
+.skills-python{
+  width: 50%;
+  background-color: #f44336;
+}
+.skills-html{
+  width: 70%;
+  background-color: #ba55d3;
+}
+.skills-css{
+  width: 70%;
+  background-color: #808080;
+}
+@media(max-width:780px) {
+  header #branding img{
+    float: none;
+    text-align: center;
+    width:55%;
+    margin-bottom:-70px;
+  }
+  header nav  {
+   float: none;
+   text-align: center;
+   width:100%;
+ }
+  .showcase #quote p  {
+    float: none;
+    text-align: center;
+    width:100%;
+    font-size: 45px;
+  }
+  .showcase #profilephoto img{
+    float: none;
+  }
+  .content{
+    font-size: 35px;
+  }
+}
