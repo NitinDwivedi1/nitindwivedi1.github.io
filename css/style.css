@@ -91,27 +91,13 @@ header nav{
   /*footer*/
 footer{
   background-color:#00bcd4;
-  text-align: center;
   font: 20px;
   font-family: monospace;
   border-top: #35424a 3px solid;
   margin-top: -20px;
 }
-#social_icons{
+footer p  {
   text-align: center;
-}
-#social_icons li{
-  display: inline-block;
-  list-style-type: none;
-}
-#social_icons li a{
-  border-bottom: none;
-}
-#social_icons li img{
-  width: 50px;
-  height: 50px;
-  margin-right: 20px;
-  margin-top: 20px;
 }
 /*2nd page*/
 .education{
@@ -176,6 +162,49 @@ footer{
   width: 70%;
   background-color: #808080;
 }
+/*3rd page*/
+.contact{
+  background-color: #d3d3d3;
+  padding-left: 10%;
+  padding-right: 40px;
+  margin:auto;
+  overflow:hidden;
+}
+#social_icons{
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left:auto;
+}
+#social_icons li{
+  display: inline-block;
+  list-style-type: none;
+}
+#social_icons li a{
+  border-bottom: none;
+}
+#social_icons li img{
+  width:60px;
+  height: 60px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+hr{
+  height: 8px;
+}
+aside.side_line p {
+  font-size: 40px;
+  font-weight: bold;
+  float: right;
+  text-align:center;
+  width: 30%;
+  margin-top: -240px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #808080;
+  border: 3px solid black;
+}
+
 @media(max-width:780px) {
   header #branding img{
     float: none;
@@ -199,5 +228,12 @@ footer{
   }
   .content{
     font-size: 35px;
+  }
+  aside.side_line p{
+    float: none;
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-left: 40px;
   }
 }
