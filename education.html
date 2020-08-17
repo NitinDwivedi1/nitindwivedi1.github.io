@@ -2,71 +2,61 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="affordable and professional web design">
     <meta name="keywords" content="web design,affordable web design,professional">
     <meta name="author" content="nitin dwivedi">
-    <title>Nitin Dwivedi|Info</title>
+    <title>Nitin Dwivedi|Welcome</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <section id="branding">
-          <img src="./image/logo.png"width="90%">
-
-        </section>
-        <nav>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li class="current"><a href="education.html">EDUCATION & SKILLS</a></li>
-            <li><a href="resume.pdf">RESUME</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
-        </nav>
+    <nav class="navbar navbar-expand bg-dark justify-content-center" role="navigation">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand d-flex w-50 mr-auto"><img src="./image/logo4.png" alt="logo"></a>
       </div>
-    </header>
+      <div class="navbar-collapse collapse w-100">
+        <ul class="navbar-nav w-100 justify-content-center">
+          <li><a class="nav-item nav-link" href="index.html">HOME</a></li>
+          <li><a class="nav-item nav-link active" href="education.html">EDUCATION & SKILLS</a></li>
+          <li><a class="nav-item nav-link" href="resume.pdf">RESUME</a></li>
+          <li><a class="nav-item nav-link" href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="education">
-      <h1 class="headline">EDUCATION</h1>
+      <h1 class="headline display-4">EDUCATION</h1>
         <h3 class="school">KVian!!</h3><p class="tenth">SSC (10th) - 2017 <br> <img src="./image/kvs-logo2.png"> <br>Kendriya Vidyalaya, Dewas(M.P.) <br>10 CGPA <br>(CBSE)</p>
         <p class="tewlth">HSC (12th) - 2019 <br> <img src="./image/kvs-logo2.png"> <br>Kendriya Vidyalaya, Dewas(M.P.) <br>88% <br>(CBSE)</p>
         <p class="graduation">Graduation <br> <img src="./image/davv-logo2.png"> <br>IIPS-DAVV, Indore(M.P.)<br>M.Tech (IT) <br>(5 yrs.)</p>
     </div>
 
-      <h1 class="headline">SKILLS</h1>
-      <div class="main">
-      <p>C</p>
-      <div class="skill_box">
-        <div class="skills-c">
-          80%
+      <h1 class="headline display-4">SKILLS</h1>
+        <div class="main">
+          <dl>
+            <dt>Web development</dt>
+              <dd> - Web.py</dd>
+              <dd> - PHP</dd>
+              <dd> - Ajax</dd>
+              <dd> - HTML/CSS/JS/Bootstrap</dd>
+            <dt>GUI development</dt>
+              <dd> - KIVY/KIVYMD</dd>
+              <dd> - PyQt</dd>
+            <dt>Web Scraping</dt>
+              <dd> - BeautifulSoup</dd>
+          </dl>
         </div>
-       </div>
-       <p>C++</p>
-       <div class="skill_box">
-         <div class="skills-cplus">
-           80%
-         </div>
-        </div>
-        <p>Python</p>
-        <div class="skill_box">
-          <div class="skills-python">
-            50%
-          </div>
-         </div>
-         <p>HTML</p>
-         <div class="skill_box">
-           <div class="skills-html">
-             70%
-           </div>
-          </div>
-          <p>CSS</p>
-          <div class="skill_box">
-            <div class="skills-css">
-              70%
-            </div>
-           </div>
-    </div>
-      <footer>
+      <footer class="mt-auto">
      <p>Nitin Dwivedi, Copyright&copy;2020</p>
      </footer>
   </body>

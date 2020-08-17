@@ -3,82 +3,50 @@ body{
   padding: 0;
   margin: 0;
   background-color:#f4f4f4;
+  overflow-x: hidden;
 }
 /*header*/
-.container{
-  width:80%;
-  margin:auto;
-  overflow:hidden;
-}
-header .current a{
-  color:#e8491d;
-  font-weight: bold;
-}
-header{
+.navbar{
   background-color:#00bcd4;
   padding-top: 0px;
   padding-bottom: 0px;
   min-height: 70px;
   border-bottom: #35424a 3px solid;
 }
-header  a {
-  color: #000000;
+
+.navbar .navbar-nav > li > a{
+  color: #b37700;
   text-decoration: none;
   font-size: 20px;
 }
-header ul{
-  margin: 0;
-  padding: 0;
+.navbar .navbar-nav > li > a.active{
+  font-weight: bold;
 }
-header li{
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
-}
-header #branding img{
-  float: left;
+.navbar-brand{
   margin-left: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  height: 170px;
-  width: 170px;
 }
-header nav{
-  float: right;
-  margin-top: 70px;
-  padding-right: 0px;
-}
- .showcase #profilephoto img{
-   margin-left: 20px;
-   width: 200px;
-   height:200px;
-   float: left;
-   border-radius: 25px;
-   border: 3px solid #e8491d;
- }
- .showcase #quote p{
-  float: center;
-  color: #e8491d;
+ .container > .row > .col-md-10 > p{
+  color: #a9a9a9;
   font-size: 70px;
   font-family:cursive;
   font-variant: small-caps;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 250px;
   line-height:1;
 }
 /*middle content*/
-.showcase{
+.container{
   padding-top: 20px;
-  background:url("../image/image11 (1).jpg")no-repeat ;
+  background:url("../image/bg-pic11.jpg")no-repeat ;
   background-position: center;
   background-size: cover;
   height: 100%;
+  padding-bottom: 10px;
 
 }
 /*main content*/
 .content{
-  font-size: 55px;
+  font-size: 35px;
   text-align: center;
   margin-top: -20px;
   margin-bottom: 0px;
@@ -90,14 +58,14 @@ header nav{
 }
   /*footer*/
 footer{
-  background-color:#00bcd4;
+  background-color:#1a1300;
   font: 20px;
   font-family: monospace;
   border-top: #35424a 3px solid;
-  margin-top: -20px;
-}
-footer p  {
   text-align: center;
+}
+footer > p{
+  color: #b37700;
 }
 /*2nd page*/
 .education{
@@ -206,28 +174,21 @@ aside.side_line p {
 }
 
 @media(max-width:780px) {
-  header #branding img{
-    float: none;
-    text-align: center;
-    width:55%;
-    margin-bottom:-70px;
-  }
-  header nav  {
-   float: none;
-   text-align: center;
-   width:100%;
- }
-  .showcase #quote p  {
-    float: none;
-    text-align: center;
-    width:100%;
-    font-size: 45px;
-  }
-  .showcase #profilephoto img{
-    float: none;
+  .navbar-brand{
+    margin-left: 0em;
+  }  
+
+  .navbar .navbar-nav > li > a{
+      overflow-x: hidden;
+      position: relative;
+      font-size: 0.8em;
+
+    }
+  .container > .row > .col-md-10 > p{
+    font-size: 40px;
   }
   .content{
-    font-size: 35px;
+    font-size: 20px;
   }
   aside.side_line p{
     float: none;
