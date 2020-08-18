@@ -176,6 +176,9 @@ aside.side_line p {
 }
 
 @media(max-width:780px) {
+  body{
+    padding-top: 150px;
+  }
   .navbar-brand{
     margin-left: 7px;
   }  
@@ -183,7 +186,7 @@ aside.side_line p {
   .navbar .navbar-nav > li > a{
       overflow-x: hidden;
       position: relative;
-      font-size: 0.8em;
+      font-size: inherit;
 
     }
   .container > .row > .col-md-10 > p{
