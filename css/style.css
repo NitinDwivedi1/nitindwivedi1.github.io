@@ -1,17 +1,16 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font: 15px/1.5 arial,helvetica,sans-serif;
   padding: 0;
-  padding-top: 100px;
+  padding-top: 60px;
   margin: 0;
   background-color:#f4f4f4;
   overflow-x: hidden;
 }
 /*header*/
-.navbar{
-  padding-top: 0px;
-  padding-bottom: 0px;
-  border-bottom: #35424a 3px solid;
-}
 
 .navbar .navbar-nav > li > a{
   color: #b37700;
@@ -24,6 +23,9 @@ body{
 .navbar-brand{
   margin-left: 20px;
 }
+.navbar .navbar-toggler-icon {
+  background-image: url("../image/toggle-icon.svg");
+  }
  .container-fluid > .row > .col-md-10 > p{
   color: #a9a9a9;
   font-size: 70px;
@@ -41,7 +43,10 @@ body{
   background-size: cover;
   height: 100%;
   padding-bottom: 10px;
-
+  
+}
+.container-fluid > .gitprojbutton{
+  text-align: center;
 }
 .edu-container{
   color: #c0c0c0;
@@ -79,7 +84,6 @@ footer > p{
 .headline {
   font-size: 50px;
   font-weight: bold;
-  text-decoration: underline;
   text-align: center;
 }
 .school{
@@ -150,11 +154,13 @@ aside.side_line p {
   background-color: #808080;
   border: 3px solid black;
 }
+.caraousel-caption{
+  text-align: center;
+  color: #ddd;
+  padding-bottom: 20px;
+}
 
 @media(max-width:780px) {
-  body{
-    padding-top: 140px;
-  }
   .navbar-brand{
     margin-left: 7px;
   }  
