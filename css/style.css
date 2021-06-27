@@ -24,7 +24,7 @@ body{
   margin-left: 20px;
 }
 .navbar .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(204, 51, 0)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 9h34M4 18h34M4 27h34'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(204, 51, 0)' stroke-width='3' stroke-linecap='round' d='M4 9h34M4 18h34M4 27h34'/%3E%3C/svg%3E");
   }
  .container-fluid > .row > .col-md-10 > p{  /*eat, sleep,code & repeat*/
   color: #696969;
@@ -169,7 +169,7 @@ aside.side_line p {
 
   .navbar .navbar-nav > li > a{
       overflow-x: hidden;
-      position: relative;
+      position: fixed;
       font-size: inherit;
 
     }
