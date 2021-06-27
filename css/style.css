@@ -169,7 +169,7 @@ aside.side_line p {
 
   .navbar .navbar-nav > li > a{
       overflow-x: hidden;
-      position: fixed;
+      position: relative;
       font-size: inherit;
 
     }
