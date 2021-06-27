@@ -7,13 +7,13 @@ body{
   padding: 0;
   padding-top: 60px;
   margin: 0;
-  background-color:#f4f4f4;
+  background-color:white;
   overflow-x: hidden;
 }
 /*header*/
 
 .navbar .navbar-nav > li > a{
-  color: #b37700;
+  color: #cc3300;
   text-decoration: none;
   font-size: 20px;
 }
@@ -24,10 +24,10 @@ body{
   margin-left: 20px;
 }
 .navbar .navbar-toggler-icon {
-  background-image: url("../image/toggle-icon.svg");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(204, 51, 0)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 9h34M4 18h34M4 27h34'/%3E%3C/svg%3E");
   }
- .container-fluid > .row > .col-md-10 > p{
-  color: #a9a9a9;
+ .container-fluid > .row > .col-md-10 > p{  /*eat, sleep,code & repeat*/
+  color: #696969;
   font-size: 70px;
   font-family:cursive;
   font-variant: small-caps;
@@ -35,22 +35,52 @@ body{
   text-align: center;
   line-height:1;
 }
+
 /*middle content*/
 .container-fluid{
   padding-top: 20px;
-  background:url("../image/bg-pic11.jpg")no-repeat ;
-  background-position: center;
-  background-size: cover;
+  background-color: #d3d3d3;
   height: 100%;
   padding-bottom: 10px;
-  
+  margin-bottom: 10px;
 }
 .container-fluid > .gitprojbutton{
   text-align: center;
 }
 .edu-container{
-  color: #c0c0c0;
+  color: #696969;
 }
+.education p  {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+.education p  img{
+  width: 200px;
+  height: 200px;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.education{
+  text-align: center;
+}
+.school h3 {
+  text-align: center;
+}
+.headline {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.school{
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: 200;
+
+}
+
 /*main content*/
 .content{
   font-size: 35px;
@@ -72,39 +102,11 @@ footer{
   text-align: center;
 }
 footer > p{
-  color: #b37700;
+  color: #cc3300;
 }
 /*2nd page*/
-.education{
-  text-align: center;
-}
-.school h3 {
-  text-align: center;
-}
-.headline {
-  font-size: 50px;
-  font-weight: bold;
-  text-align: center;
-}
-.school{
-  font-family: cursive;
-  font-size: 30px;
-  font-weight: 200;
 
-}
 
-.education p  {
-  display: inline-block;
-  list-style-type: none;
-  text-align: center;
-}
-.education p  img{
-  width: 200px;
-  height: 200px;
-  margin-right: 80px;
-  margin-left: 80px;
-  margin-top: 20px;
-}
 .main{
   margin-left: 20px;
   margin-bottom: 40px;
@@ -156,7 +158,7 @@ aside.side_line p {
 }
 .caraousel-caption{
   text-align: center;
-  color: #ddd;
+  color: #696969;
   padding-bottom: 20px;
 }
 
